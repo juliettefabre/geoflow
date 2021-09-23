@@ -1,4 +1,4 @@
-## **How to create a geoflow contacts**
+## **How to create geoflow contacts**
 ### from a spreadsheet (for basic users)
 *contacts: correspond to a simplified directory of contacts (people / organizations) used by geoflow to manage contact/roles associated to *entities*. Having such directory of contacts will simplify the use and binding of *responsible parties* to dataset metadata.
 #### General recommendation
@@ -35,7 +35,7 @@
 
 ##### PositionName
 
-| **Column name**              | <u>Positioname</u> |
+| **Column name**              | <u>PositionName</u> |
 | ---------------------------- | ----------------------- |
 | **Definition**               |Position inside organisation				 |
 | **Need**                     | Optional           |

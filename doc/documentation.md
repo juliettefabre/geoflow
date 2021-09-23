@@ -369,6 +369,23 @@ List of dictionary handlers supported by geoflow
   }
 ```
 
+  - JSON snippet for *entities* with *dbi* handler
+
+The `source` property should be either the table name or a SQL SELECT query. 
+> Note: The connection to the database requires that the database is declared as a dbi input software, 
+otherwise no connection will be possible through the handler
+
+The JSON configuration snippet for a dbi entity `handler` would look like this:
+
+``` json
+    "entities" : [
+      {
+        "handler": "dbi",
+        "source": "SELECT * FROM metadata.metadata_entities"
+      }
+    ]
+```
+  
   - JSON snippet for custom handlers
 
 It is possible to use a custom `handler` function provided by the user.
